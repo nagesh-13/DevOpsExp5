@@ -8,7 +8,7 @@ sh 'javac HelloWorld.java'
 }
 stage('Run'){
 steps{
-sh 'java Helloworld'
+sh 'java HelloWorld'
 }
 }
 }
